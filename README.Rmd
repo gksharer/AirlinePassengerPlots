@@ -1,0 +1,28 @@
+---
+title: "README"
+author: "Gillian Sharer"
+date: "July 3, 2016"
+output: html_document
+---
+
+# Introduction to the AirPassengerPlots Shiny App
+This shiny app is a tool to explore the month and year dependencies of the 
+AirPassengers dataset in library(datasets). There are 2 tabs, the first of which
+has 2 interactive plots controlled by the widgets in the sidebar. The second is 
+a non-interactive display of the original dataset. 
+
+In the first tab, the upper plot explores the dataset by year. Choose one or more 
+years in the first selection box and it will plot months vs. number of air passengers 
+for each selected year. There is a checkbox to also plot the average number of 
+passengers for the year(s).
+
+The lower plot explores the dataset by month. Choose one or more months in the
+second selection box and it will plot years vs. number of air passengers for each
+selected month. There is a checkbox to also plot the linear model fit for the 
+month(s).
+
+The second tab shows the dataset as a non-interactive plot of time vs. number of 
+air passengers. Below the plot is a table display of the dataset.
+
+
+
