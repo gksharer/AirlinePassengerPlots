@@ -28,8 +28,11 @@ that you are in the first "Plot" tab.
 
 To run this shiny app from RStudio:
 
-
 \> runGitHub("AirlinePassengerPlots","gksharer")
+
+To run this shiny app from a brower go to:
+
+https://gksharer.shinyapps.io/AirPassengerPlots/
 
 
 
