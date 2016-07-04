@@ -5,6 +5,7 @@
 #
 
 library(shiny)
+library(markdown)
 
 # Define UI for application
 shinyUI(fluidPage(
@@ -33,7 +34,10 @@ shinyUI(fluidPage(
         tabPanel("Original Dataset", 
                       plotOutput("originalPlot"),
                       tableOutput("originalTable")
-                )
+                ),
+        tabPanel("Documentation",
+                  includeHTML("README.html")    
+                 )
       )
     )
   )

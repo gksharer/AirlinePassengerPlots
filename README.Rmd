@@ -7,9 +7,9 @@ output: html_document
 
 # Introduction to the AirPassengerPlots Shiny App
 This shiny app is a tool to explore the month and year dependencies of the 
-AirPassengers dataset in library(datasets). There are two tabs, the first of which
+AirPassengers dataset in library(datasets). There are three tabs, the first of which
 has two interactive plots controlled by the widgets in the sidebar. The second is 
-a non-interactive display of the original dataset. 
+a non-interactive display of the original dataset. The third is this documentation page.
 
 In the first tab, the upper plot explores the dataset by year. Choose one or more 
 years in the first selection box and it will plot months vs. number of air passengers 
